@@ -16,15 +16,15 @@ class Solution {
         return maxi;
     }
 
-public static void main(String[] args) {
-     
-        int[] nums = {1, 1, 0, 1, 1, 1};
+    public static void main(String[] args) {
+        
+            int[] nums = {1, 1, 0, 1, 1, 1};
 
-        // Create an instance of the Solution class
-        Solution sol = new Solution();
+            // Create an instance of the Solution class
+            Solution sol = new Solution();
 
-        // Find and print the maximum consecutive 1s
-        int ans = sol.maxConsecutiveOnes(nums);
-        System.out.println("The maximum consecutive 1's are " + ans);
-}
+            // Find and print the maximum consecutive 1s
+            int ans = sol.maxConsecutiveOnes(nums);
+            System.out.println("The maximum consecutive 1's are " + ans);
+    }
 }
